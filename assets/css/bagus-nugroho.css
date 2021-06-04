@@ -1,0 +1,72 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	background: #74ebd5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header h1{
+	color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.content-bagus{
+	position: relative;
+	margin: auto;
+	max-width: 90%;
+}
+
+.gambar-bagus{
+	width: 60%;
+}
+
+.prev-bagus, .next-bagus{
+    padding: 10px 10px;
+    position: absolute;
+    top: 50%;
+    margin: 0px 270px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.prev-bagus {
+    left: 0;
+}
+.next-bagus {
+    right: 0;
+}
+
+.prev-bagus:hover, .next-bagus:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+    margin: -1px 270px;
+    padding: 11px 11px;
+}
+
+h2{
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5px 15px;
+	border-radius: 8px;
+	max-width: 75%;
+	position: absolute;
+	text-align: right;
+	font-size: 3em;
+	top: -2%;
+	right: 280px;
+}
+
+.block-bagus{
+	display: block;
+}
+
+.none-bagus{
+	display: none;
+}
